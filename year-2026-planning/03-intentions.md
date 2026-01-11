@@ -51,7 +51,12 @@
 ## Balance Needs
 
 ### More of:
-[To be captured]
+1. **Personal projects that lead to a startup** - Focus work on projects that are most interesting and have biggest chance of success
+2. **Health transformation continuation** - Lose another chunk of weight to finish 100 lb goal (~40 lbs remaining from 60 already lost)
+3. **Work with friends** - Partnership-based building (from Destination Postcard)
+4. **Work/family boundaries** - Time to put down work, be present, recharge batteries (from lessons learned)
 
 ### Less of:
-[To be captured]
+1. **Projects for other people** - Fewer consulting projects, less work for others
+2. **Solo work** - Shift from solo consulting to partnership models
+3. **Laptop time on vacation** - The December pattern needs to break (captured in Destination Postcard resolution)
