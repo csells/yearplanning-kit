@@ -694,7 +694,127 @@ Ready to finalize?"
 **On confirmation:**
 - Save final plan
 - Offer to clear working files (keep or archive)
-- Suggest next step: "Ready for Q1 planning? Create a quarterly planning session."
+- Proceed to Phase 7 (Session Reflection)
+
+---
+
+## Phase 7: Session Reflection (Optional but Recommended)
+
+**Facilitation:** Meta-analysis, process improvement
+
+**Purpose:** Review the planning session itself to identify improvements for future use.
+
+```
+ASK:
+"Your year plan is complete. Would you like to do a quick session reflection?
+
+This reviews how the planning process went and identifies potential improvements
+to the methodology for next time."
+
+Options: [Yes, let's reflect / No, I'm done]
+```
+
+**If user opts in:**
+
+```
+ANALYZE the conversation for:
+
+1. PHASE FLOW
+   - Which phases felt too long or too short?
+   - Where did momentum stall?
+   - Were any phases skipped or rushed?
+
+2. FACILITATION PATTERNS
+   - Where did the questions land well?
+   - Where did they feel forced or unclear?
+   - What questions were missing?
+
+3. BOARD SIMULATION
+   - Which board members added most value?
+   - Were any perspectives missing?
+   - Did deliberation reach natural closure or feel cut short?
+
+4. OUTPUT QUALITY
+   - Are the Big Rocks clear and memorable?
+   - Do the slogans resonate?
+   - Is the final plan actionable?
+
+5. USER EXPERIENCE
+   - What felt tedious?
+   - What felt valuable?
+   - What would you change for next year?
+
+PRESENT findings:
+"Based on our session, here are observations:
+
+WORKED WELL:
+- [specific observation]
+- [specific observation]
+
+COULD IMPROVE:
+- [specific observation with suggested change]
+- [specific observation with suggested change]
+
+SUGGESTED PROMPT MODIFICATIONS:
+- [concrete change to methodology]
+
+Would you like me to document these improvements?"
+```
+
+**If user wants documentation:**
+- Save reflection to `year-[YYYY]-planning/07-session-reflection.md`
+- Include specific prompt modification suggestions
+- Note for next year's planning
+
+---
+
+## Phase 8: Next Steps
+
+**After reflection (or if skipped):**
+
+```
+ASK:
+"Your Year [YYYY] plan is complete.
+
+Ready to break this down into quarterly scope?
+
+A quarterly planning session would:
+- Take your Big Rocks and identify Q1 milestones
+- Map capacity for the next 90 days
+- Define Small Rocks (quarter-level goals)
+- Create actionable pebbles (scope reminders)
+
+Options:
+1. Yes, let's create a Q1 planning session now
+2. Not now - I'll do quarterly planning later
+3. Help me set up a /quarterplanning command for later use"
+```
+
+**If Option 1 (Q1 now):**
+- Transition to quarterly planning flow
+- Use Year plan as input context
+- Focus on Q1 specifically
+
+**If Option 2 (Later):**
+```
+"Understood. When you're ready for Q1 planning, start a new session with:
+
+'Let's do quarterly planning for Q1 [YYYY]. Here's my year plan: [paste final plan or reference file]'
+
+Your Year [YYYY] plan is saved at:
+year-[YYYY]-planning/06-final-plan.md"
+```
+
+**If Option 3 (Create command):**
+```
+"To create a /quarterplanning command:
+
+1. Create the file: .claude/commands/quarterplanning.md
+2. I can help you draft it based on this session's patterns
+3. It would follow similar structure: context → capacity → rocks → review
+
+Want me to draft a quarterplanning.md command now?"
+```
 
 ---
 

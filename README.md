@@ -92,11 +92,39 @@ The board members in Phase 5 can be adjusted. Some variations:
 4. **3 rocks is better than 6** - Focus beats ambition
 5. **Take breaks** - Phase 5 benefits from a pause to let ideas settle
 
-## Credits
+## Credits & Inspiration
 
-Methodology developed through iterative personal use. Inspired by:
-- "The 7 Habits" Big Rocks concept
-- Advisory board simulation patterns
-- Reflective goal-setting practices
+This methodology synthesizes several frameworks into a cohesive planning ceremony. Understanding the sources helps you adapt the process to your needs.
 
-Share freely. No attribution required.
+### Core Concepts
+
+| Concept | Source | How It's Used Here |
+|---------|--------|-------------------|
+| **Big Rocks** | [Stephen Covey](https://www.franklincovey.com/courses/the-5-choices/choice-3/) (origin), [Dan Martell](https://www.youtube.com/@danmartell) (application) | Year-level priorities with slogans and outcomes. "Put the big rocks in first—they won't fit later." |
+| **Pre-loaded Year** | [Dan Martell](https://www.youtube.com/@danmartell) | Capacity mapping: holidays, commitments, energy seasons laid out before setting goals. Reality check prevents overcommitment. |
+| **Destination Postcard** | [Chip & Dan Heath, *Switch*](https://heathbrothers.com/books/switch/) | Year-end visualization exercise. "Write a postcard from future you" describing satisfaction and achievement. |
+| **Board Simulation** | [Nate B. Jones](https://sloanreview.mit.edu/article/how-i-built-a-personal-board-of-directors-with-genai/), [Andrej Karpathy](https://karpathy.ai/) | Virtual advisory board stress-testing your plan through diverse perspectives. |
+| **PARA** | [Tiago Forte](https://fortelabs.com/blog/para/) | Projects, Areas, Resources, Archive. Referenced in Phase 1 for current commitments review. |
+| **Slow Productivity** | [Cal Newport](https://calnewport.com/my-new-book-slow-productivity/) | Philosophical grounding: do fewer things, work at natural pace, obsess over quality. |
+
+### Framework Compatibility
+
+This ceremony works well with:
+- **PARA** (Tiago Forte) - For organizing projects and areas
+- **GTD** (David Allen) - For capturing and processing tasks after planning
+- **OKRs** - Big Rocks can be expressed as Objectives with Key Results
+- **12 Week Year** - Quarterly planning follows similar milestone logic
+- **Human Design** - The Sage board member can incorporate HD insights
+
+### Original Contributions
+
+Elements developed specifically for this ceremony:
+- **The Sage** as internal-lens board member (balancing external perspectives)
+- **Through-Line** as emergent organizing principle
+- **Slogan + Outcome + Value** structure for Big Rocks
+- **Force ranking** as late-stage prioritization (after rocks are well-defined)
+- Integration of reflective interview with structured goal-setting
+
+### License
+
+Share freely. No attribution required, but appreciated.
