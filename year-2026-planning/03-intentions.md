@@ -31,7 +31,22 @@
 - **Psychological vs. actual runway** - Has the financial runway, but psychological comfort with earning vs. drawing down is different
 
 ## Destination Postcard
-[To be captured]
+
+**December 31, 2026 - Feeling deeply satisfied:**
+
+**What exists:** I've created an AI startup that's revenue positive and has future potential for ongoing growth.
+
+**What I'm proud of:** Turning my ideas into revenue and pulling my friends together to make that happen.
+
+**Partnerships formed:** Partnered with Don at last, and hopefully Rory, Jeff, Jesse, and maybe Steve as well. A rising tide lifts all boats.
+
+**Financial picture:** Got enough revenue to grow the startup and pay my salary and benefits. (No longer dipping into investments - the fear is resolved.)
+
+**Family relationships:** I've been able to carve out time to put down my work and be present for my family and recharge my batteries. (The December vacation pattern is fixed - boundaries exist now.)
+
+**Day-to-day experience:** Working with my friends and Eli on interesting projects that advance the business and keep me in the flow state.
+
+**Key themes:** Partnership over solo work, revenue-positive validation, work/family boundaries finally working, flow state maintained through building with people he enjoys.
 
 ## Balance Needs
 
