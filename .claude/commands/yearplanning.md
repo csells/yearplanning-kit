@@ -1,3 +1,16 @@
+---
+name: yearplanning
+description: Annual planning ceremony with context gathering, capacity mapping, Big Rocks goal definition, and board simulation stress-testing. Use when user wants to plan their year strategically.
+allowed-tools:
+  - AskUserQuestion
+  - Read
+  - Write
+  - Edit
+  - Glob
+  - Bash
+  - TodoWrite
+---
+
 # /yearplanning - Annual Planning Ceremony
 
 Set strategic direction for the year through structured reflection, capacity mapping, goal definition, and stress-testing via a simulated Board of Directors.
@@ -17,6 +30,19 @@ This ceremony guides you through annual planning in 5 phases:
 
 ## Session Startup
 
+### Determine Planning Year
+
+Before gathering context, confirm which year is being planned:
+
+```
+INFER OR ASK:
+- If current month is Oct-Dec: Assume planning for NEXT year
+- If current month is Jan-Feb: Ask if planning current year or if this is a late start
+- Otherwise: Assume planning for current year
+
+Store as: PLANNING_YEAR = [YYYY]
+```
+
 ### Gather Personal Context
 
 Before beginning, collect context that will inform the planning process.
@@ -25,17 +51,22 @@ Before beginning, collect context that will inform the planning process.
 ASK USER (via AskUserQuestion):
 
 1. "What are your 2-4 core values that guide major decisions?"
-   - Options: [Provide my values, Skip - use example values]
+   a. Provide my values
+   b. Skip - use example values
 
 2. "Do you have a 3-5 year vision or life direction statement?"
-   - Options: [Yes - I'll share it, No vision statement, Skip]
+   a. Yes - I'll share it
+   b. No vision statement
+   c. Skip
 
 3. "What identity pillars or roles define who you want to be?"
    - Example: "Builder, Leader, Partner, Creator"
-   - Options: [Provide my pillars, Skip - use examples]
+   a. Provide my pillars
+   b. Skip - use examples
 
 4. "Do you have notes from last year's planning or review to reference?"
-   - Options: [Yes - I'll paste/share them, No - start fresh]
+   a. Yes - I'll paste/share them
+   b. No - start fresh
 ```
 
 **If user skips:** Use these example frameworks to demonstrate the process:
@@ -43,13 +74,13 @@ ASK USER (via AskUserQuestion):
 - Example pillars: Builder, Thinker, Partner
 - Example vision: "Build sustainable income through meaningful work while prioritizing health and relationships"
 
-Store responses in: `year-[YYYY]-planning/00-personal-context.md`
+Store responses in: `year-[PLANNING_YEAR]-planning/00-personal-context.md`
 
 ---
 
 ## Working Files
 
-All session progress stored in: `year-[YYYY]-planning/`
+All session progress stored in: `year-[PLANNING_YEAR]-planning/`
 
 Create directory at session start. Files created during session:
 - `00-personal-context.md` - Values, vision, pillars from startup
@@ -73,7 +104,7 @@ FRAME:
 "Let's review where you're coming from before planning where you're going."
 
 1. PREVIOUS YEAR REVIEW
-   "Looking back at [YYYY-1]:
+   "Looking back at [PLANNING_YEAR-1]:
 
    What were your major goals or intentions?
    [If user has notes, review them. If not, reconstruct from memory]
@@ -163,7 +194,7 @@ to calculate realistic working days per quarter."
 **Capture to `02-preloaded-year.md`:**
 
 ```markdown
-# Pre-loaded Year [YYYY]
+# Pre-loaded Year [PLANNING_YEAR]
 
 ## Capacity by Quarter
 
@@ -211,7 +242,7 @@ LAST YEAR'S JOURNEY:
 INTERVIEW:
 
 1. LOOKING BACK
-   "What from [YYYY-1] are you most proud of?"
+   "What from [PLANNING_YEAR-1] are you most proud of?"
    [Listen, capture]
 
    "What do you wish you had done differently?"
@@ -221,7 +252,7 @@ INTERVIEW:
    [Listen, capture]
 
 2. LOOKING FORWARD
-   "What's calling to you for [YYYY]? What feels exciting?"
+   "What's calling to you for [PLANNING_YEAR]? What feels exciting?"
    [Listen, capture]
 
    "What feels heavy or obligatory? What would you drop if you could?"
@@ -231,7 +262,7 @@ INTERVIEW:
    [Listen, capture]
 
 3. DESTINATION POSTCARD
-   "Imagine it's December 31, [YYYY]. You're feeling deeply satisfied.
+   "Imagine it's December 31, [PLANNING_YEAR]. You're feeling deeply satisfied.
 
    Describe that moment:
    - What's true?
@@ -251,9 +282,9 @@ INTERVIEW:
 **Capture to `03-intentions.md`:**
 
 ```markdown
-# Year [YYYY] Intentions
+# Year [PLANNING_YEAR] Intentions
 
-## Looking Back at [YYYY-1]
+## Looking Back at [PLANNING_YEAR-1]
 ### Proud of:
 - [item]
 
@@ -379,7 +410,7 @@ PROCESS:
 **Capture to `04-big-rocks.md`:**
 
 ```markdown
-# Year [YYYY] Big Rocks
+# Year [PLANNING_YEAR] Big Rocks
 
 ## Rock Table
 
@@ -475,7 +506,7 @@ information, and surface tensions before challenging you directly."
 ROUND 1: INITIAL DELIBERATION
 
 COORDINATOR:
-"Board, we're reviewing the Year [YYYY] plan.
+"Board, we're reviewing the Year [PLANNING_YEAR] plan.
 
 Mission direction: [from Destination Postcard]
 Big Rocks:
@@ -547,7 +578,7 @@ Through-line: [organizing principle if emerged]"
 **Capture to `05-board-simulation.md`:**
 
 ```markdown
-# Board Simulation - Year [YYYY]
+# Board Simulation - Year [PLANNING_YEAR]
 
 ## Plan Presented
 - Mission: [summary]
@@ -612,7 +643,7 @@ Through-line: [organizing principle if emerged]"
 **Compile final plan to `06-final-plan.md`:**
 
 ```markdown
-# Year [YYYY] Plan
+# Year [PLANNING_YEAR] Plan
 
 ## Through-Line
 [Organizing principle from board simulation]
@@ -675,7 +706,7 @@ Through-line: [organizing principle if emerged]"
 
 **Present for confirmation:**
 ```
-"Here's your Year [YYYY] Plan:
+"Here's your Year [PLANNING_YEAR] Plan:
 
 THROUGH-LINE: [organizing principle]
 
@@ -762,7 +793,7 @@ Would you like me to document these improvements?"
 ```
 
 **If user wants documentation:**
-- Save reflection to `year-[YYYY]-planning/07-session-reflection.md`
+- Save reflection to `year-[PLANNING_YEAR]-planning/07-session-reflection.md`
 - Include specific prompt modification suggestions
 - Note for next year's planning
 
@@ -774,7 +805,7 @@ Would you like me to document these improvements?"
 
 ```
 ASK:
-"Your Year [YYYY] plan is complete.
+"Your Year [PLANNING_YEAR] plan is complete.
 
 Ready to break this down into quarterly scope?
 
@@ -799,10 +830,10 @@ Options:
 ```
 "Understood. When you're ready for Q1 planning, start a new session with:
 
-'Let's do quarterly planning for Q1 [YYYY]. Here's my year plan: [paste final plan or reference file]'
+'Let's do quarterly planning for Q1 [PLANNING_YEAR]. Here's my year plan: [paste final plan or reference file]'
 
-Your Year [YYYY] plan is saved at:
-year-[YYYY]-planning/06-final-plan.md"
+Your Year [PLANNING_YEAR] plan is saved at:
+year-[PLANNING_YEAR]-planning/06-final-plan.md"
 ```
 
 **If Option 3 (Create command):**
@@ -826,7 +857,7 @@ Want me to draft a quarterplanning.md command now?"
 - Board Simulation (Phase 5): 90-120 minutes alone
 
 ### File Management
-- All work in `year-[YYYY]-planning/` directory
+- All work in `year-[PLANNING_YEAR]-planning/` directory
 - Files persist across session breaks
 - Final plan is the deliverable; working files can be archived or deleted
 
