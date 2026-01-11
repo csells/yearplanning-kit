@@ -138,3 +138,73 @@
 - Strong pull toward product/builder work vs. consulting work
 - AI agents are the domain of focus
 - Health transformation demonstrates commitment when priorities are set
+
+## External Factors Affecting 2026
+
+### Market/Industry - Competitive Landscape
+
+**Long-term Threats (Big Boys):**
+- Google, Anthropic, OpenAI building agent capabilities
+- Not currently focused on orchestration/swarms, but seems inevitable
+- Long-term competitive risk
+
+**Immediate Threats (Open Source Ecosystem):**
+- Multiple orchestration and personal AI open source projects
+- Building fan bases without productization yet
+- Could easily turn into products with built-in audiences
+
+**Strategic Tension - Proprietary vs. Open Source:**
+- Current approach: Keeping work proprietary (thinks of it as valuable IP)
+- Alternative approach: Open source base implementation to build audience, monetize hosting/UX/add-on capabilities
+- **Example model:** Gastown Hall built on friend's Gastown project
+  - Friend gaining visibility with core open source project
+  - Wants to partner, leverage his audience
+  - Hosting/UX becomes value-add product
+  - Potential partnership/revenue sharing model
+
+### Life Transitions
+
+**Current Stability:**
+- In "forever home" (Portland area)
+- Married 2 years ago (2024)
+- No major life transitions planned
+- Focus on financial balancing as aging
+
+**Healthcare/Insurance:**
+- Retired at 55 (2024), currently 56
+- 9 years until Medicare eligibility (age 65 in 2033)
+- Managing health insurance in gap years
+- Health transformation ongoing (habit changes working)
+
+**Potential Identity Transition:**
+- From: "AI consultant in public eye, available for projects"
+- To: "CEO/CTO/CPO of startup product"
+- Would define product himself or with friends
+- Significant identity shift if it happens
+
+### Known Opportunities & Threats
+
+**Financial Runway:**
+- Pending consulting income: 3-6 months runway
+- **Not urgent** - significant retirement savings
+- Can sustain current work indefinitely (as long as no employee payroll)
+- Has friends for sweat equity / future company equity partnerships
+- Semi-retired = financially comfortable for transition period
+- Income gap expected but manageable
+
+**Major Opportunity - Agent OS Partnership:**
+- Friend is co-founder of Agent OS startup
+  - Competing with Google Vertex Agent OS and others
+- Working to host Eli in this infrastructure
+- **Free inference credits** (major cost savings for AI agent development)
+- Access to platform capabilities
+- Active collaboration underway
+- Could significantly accelerate Eli development
+- Reduces infrastructure costs during product development phase
+
+### Strategic Tensions Identified
+
+1. **Audience Building:** Proprietary IP protection vs. open source for audience/community
+2. **Business Model:** Solo product vs. partnership models (Gastown Hall pattern)
+3. **Identity:** Builder/consultant vs. CEO/CTO/CPO of startup
+4. **Timing:** Market moving fast (open source gaining audiences), window of opportunity unclear
