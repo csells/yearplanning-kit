@@ -77,23 +77,64 @@
 ### Active Projects
 
 **Personal Projects (Primary Focus):**
-1. [Project 1 - name TBD]: Groundbreaking AI agent foundation work
-2. [Project 2 - name TBD]: Groundbreaking AI agent foundation work
-- Both may turn into products/marketable offerings
-- These are where energy and focus are going
+
+1. **Code Swarm/Code Army** - Orchestrated AI agents for code implementation
+   - Domain names secured (codeArmy.com/.ai/.bot or similar)
+   - Building around Gastown (friend's framework), Flywheel framework coming
+   - **Current focus:** Hosting/configuration/provisioning infrastructure
+   - **Vision:** UI accessible globally to see running projects, full visibility into orchestrated implementation
+   - **Status:** Actively building
+   - **Goal:** Turn into a business
+
+2. **Eli** - AI agent with multi-layered memory system
+   - Advanced capabilities for execution, planning, orchestration
+   - Personal partner for accomplishing tasks
+   - Growing, learning memory system
+   - **Current focus:** Building out memory architecture and capabilities
+   - **Status:** Going well, actively developing
+   - **Goal:** Productize
+
+**Integration Vision:** Code Army + Eli = AI COO/Chief of Staff controlling coding armies. Could be two products, one product building on another, or one integrated offering.
 
 **Consulting (Secondary, Reactive):**
-- Will accept if it comes to him
-- Has proposal opportunities but hasn't followed up
+- All contracts completed (pending income hasn't landed yet)
+- Zero active consulting commitments
+- Will accept if opportunities arrive naturally
+- Has proposal opportunities but not following up
 - Not actively pursuing new clients
 
+### Ongoing Responsibilities
+
+**Family (Age 56):**
+- Two grown sons, 5-year-old grandson, wife
+- Primary financial responsibility: mortgage, day-to-day expenses
+- Significant retirement savings (letting it build)
+- Income transition: Consulting covered expenses in 2025, likely to drop in 2026 as focus shifts to products (before they generate revenue)
+
+**Health/Fitness (Major Priority & 2025 Achievement):**
+- Lost almost 60 lbs in 2025
+- A1C down significantly - out of prediabetes range (was prediabetic/diabetic)
+- Uses GLP-1s
+- Exercises 5-6 days/week: water aerobics + weightlifting
+- "Made a big difference in my life"
+- **Status:** Continue as-is - major accomplishment and ongoing priority
+
+**Community/Open Source:**
+- Active participant in open source community
+- Maintains multiple open source projects
+- Recently gave talk at Google Winter of Code 2026 kickoff (yesterday)
+- Giving back to community that's been good to him over the years
+- **Status:** Continue as-is - values-driven
+
 ### Revenue Model Shift
-- 2025: Consulting-driven (reactive)
-- 2026: Potentially product-driven (if personal projects pan out)
-- Consulting remains option if opportunities arrive
+- 2025: Consulting-driven (reactive, high volume at times)
+- 2026: Transitioning to product-driven (before revenue arrives)
+- Income gap expected as products develop
+- Consulting remains option if opportunities arrive, but not priority
 
 ### Key Pattern Identified
 - High-quality delivery when engaged
 - Reactive vs. proactive approach to consulting
-- Growing pull toward product/builder work vs. consulting work
+- Strong pull toward product/builder work vs. consulting work
 - AI agents are the domain of focus
+- Health transformation demonstrates commitment when priorities are set
